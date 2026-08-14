@@ -7,7 +7,7 @@ Personal [Claude Code](https://claude.com/claude-code) skills.
 | Skill | Use when |
 | --- | --- |
 | [clean-code-utils](skills/clean-code-utils/SKILL.md) | Creating or modifying utility functions, helpers, services, or shared logic |
-| [seo](skills/seo/SKILL.md) | Creating or editing pages, routes, layouts, or templates in a website |
+| [seo](skills/seo/SKILL.md) | Creating or editing pages, routes, layouts, templates, sitemaps, or structured data in a website |
 
 ## Install
 
