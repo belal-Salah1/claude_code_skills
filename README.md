@@ -7,6 +7,7 @@ Personal [Claude Code](https://claude.com/claude-code) skills.
 | Skill | Use when |
 | --- | --- |
 | [clean-code-utils](skills/clean-code-utils/SKILL.md) | Creating or modifying utility functions, helpers, services, or shared logic |
+| [performance-review](skills/performance-review/SKILL.md) | Reviewing or diagnosing performance — slow endpoints, bad p99, N+1 queries, memory growth, cache misses, Core Web Vitals, scaling questions |
 | [seo](skills/seo/SKILL.md) | Creating or editing pages, routes, layouts, templates, sitemaps, or structured data in a website |
 
 ## Install
