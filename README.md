@@ -7,7 +7,7 @@ Personal [Claude Code](https://claude.com/claude-code) skills.
 | Skill | Use when |
 | --- | --- |
 | [accessibility](skills/accessibility/SKILL.md) | Auditing or improving web accessibility — a11y audit, WCAG 2.2 compliance, screen reader support, keyboard navigation |
-| [clean-code-utils](skills/clean-code-utils/SKILL.md) | Creating or modifying utility functions, helpers, services, or shared logic |
+| [clean-code](skills/clean-code/SKILL.md) | Writing, reviewing, or refactoring code — function size, nesting, conditionals, magic values, duplication, naming, over-abstraction, and behavior-preserving refactoring with evidence and safety gates |
 | [performance-review](skills/performance-review/SKILL.md) | Reviewing or diagnosing performance — slow endpoints, bad p99, N+1 queries, memory growth, cache misses, Core Web Vitals, scaling questions |
 | [seo](skills/seo/SKILL.md) | Creating or editing pages, routes, layouts, templates, sitemaps, or structured data in a website |
 | [ui-review](skills/ui-review/SKILL.md) | Reviewing UI/frontend changes for content overflow, responsive layout, flex-vs-fixed sizing, z-index discipline, SCSS/BEM quality, and async loading/error/empty states |
@@ -20,5 +20,5 @@ Personal [Claude Code](https://claude.com/claude-code) skills.
 Copy or symlink a skill directory into `~/.claude/skills/`:
 
 ```bash
-ln -s "$PWD/skills/clean-code-utils" ~/.claude/skills/clean-code-utils
+ln -s "$PWD/skills/clean-code" ~/.claude/skills/clean-code
 ```
