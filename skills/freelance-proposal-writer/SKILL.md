@@ -29,6 +29,31 @@ detail buried in paragraph four of their post, the name of their stack.
 
 ---
 
+## THE SECOND RULE — SHORT AND DIRECT
+
+> **Every sentence carries a fact or it gets cut.**
+
+The character caps below are walls, not targets. A client reading 40
+proposals rewards the one that respects their time. Long does not read as
+thorough — it reads as unedited.
+
+Write the proposal, then do a **cut pass** before output:
+
+1. Delete every sentence that carries no fact, number, or decision.
+2. Delete every adjective doing the job of a number. "Very fast" → "1.2s LCP".
+3. Delete every clause restating the job post back at them.
+4. Delete every hedge: *I believe, I think, I would say, it seems, possibly,
+   in my humble opinion, as you may know.*
+5. Delete the second example when one already made the point.
+6. Merge any two sentences saying the same thing at different lengths.
+
+If the cut pass removed nothing, you didn't do it. Run it again.
+
+**One idea per paragraph. Max 3 sentences per paragraph. No paragraph
+exceeds 4 lines on a phone.**
+
+---
+
 ## STEP 0 — SHOULD HE EVEN APPLY?
 
 Run this before writing a single word.
@@ -116,13 +141,22 @@ click ends the conversation.
 | | **Upwork** | **Mostaql** |
 |---|---|---|
 | Language | English | Arabic |
-| Hard cap | **4750 characters** | ~150–250 كلمة |
+| **Target length** | **1200–1800 chars** (~200–280 words) | **700–1100 chars** (~110–170 words) |
+| Ceiling | 4750 chars — Upwork's own limit, a wall never a goal | 1500 chars — self-imposed, not a platform limit |
 | Links | **Yes** — live URLs, use them | **Never** — describe the work instead |
 | First 250 chars | The preview the client sees in their list | Same — the first two lines decide |
-| Tone | Direct, confident, technical | مهني ومباشر، تقني بدون تعالي |
+| Tone | Direct, confident, technical | Professional and direct, technical without talking down |
 | Profile | Pick the matching specialized profile | — |
 
-Count the characters. Actually count them. 4750 is a wall, not a suggestion.
+Count the characters. Actually count them.
+
+Hitting 4750 on Upwork is a failure, not a full effort — it means the cut
+pass didn't happen. If a proposal genuinely needs more than ~1800
+characters, the extra has to be earning its place: a real architecture
+decision, a real number, a real finding. Never filler.
+
+Mostaql's ceiling here is a discipline, not a platform rule — Mostaql allows
+more, but its clients skim harder than Upwork's, so the shorter proposal wins.
 
 ---
 
@@ -174,15 +208,25 @@ open loop are non-negotiable; the compliment can shrink to three words.
 > Yours could answer from live order data — different product, and the one
 > customers don't rage-quit. I checked your site; the integration point exists.
 
-### Worked hooks — Arabic (موستقل)
+### Worked hooks — Arabic (Mostaql)
 
 > أستاذ محمد، دخلت على المتجر وجربت مسار الشراء من الموبايل. التصميم نضيف،
 > بس فيه خطوة زيادة قبل الدفع مش موجودة عند أقرب منافسين ليك — والخطوة دي
 > بتاكل نسبة من الأوردرات. عندي اقتراح واضح ليها.
 
+*EN: "Mr. Mohamed — I went through the store and tried the checkout path on
+mobile. The design is clean, but there's an extra step before payment that
+your closest competitors don't have, and it's eating a share of your orders.
+I have a clear suggestion for it." (192 chars)*
+
 > قريت الوصف كذا مرة، لأن معظم اللي بينشروا شغل Laravel مابيذكروش الصلاحيات
 > — وانت ذكرتها. ده معناه إنك اتعبت في نظام قبل كده. عندي بنية للأدوار
 > بتحل ده من البداية، وسؤال واحد عن حجم البيانات.
+
+*EN: "I read the description several times, because most people posting
+Laravel work don't mention permissions — you did. That means a system has
+burned you before. I have a role structure that solves it from day one, and
+one question about your data volume." (190 chars)*
 
 ---
 
@@ -190,6 +234,19 @@ open loop are non-negotiable; the compliment can shrink to three words.
 
 Four blocks, in this order. No headings in the actual proposal — headings
 look like a template. Use paragraph breaks.
+
+**Budget the whole thing before writing:**
+
+| Block | Upwork | Mostaql |
+|---|---|---|
+| Hook (Step 3) | ≤250 chars | ≤250 chars |
+| 1 — Why, not what | 2–3 sentences | 1–2 sentences |
+| 2 — How he'll build it | 3–4 sentences | 2–3 sentences |
+| 3 — Muscle-flex | 2–3 sentences + 1 link | 2 sentences, no link |
+| 4 — P.S. | 1–2 sentences | 1 sentence |
+
+Go over a budget only when the extra sentence carries a fact the client
+can't get anywhere else.
 
 ### Block 1 — Why, not what
 
@@ -253,12 +310,17 @@ Same four blocks, tighter, and **no links, ever**.
 
 - Describe the project instead: *"أقرب مشروع لشغلك: منصة حاسبات فيها 52
   أداة، اتبنت بـ Astro و TypeScript، وطلعت 100/100 في الأداء والسيو
-  والوصولية"* — then offer to share it on request.
+  والوصولية"* — then offer to share it on request. (EN: "Closest project to
+  your job: a calculator platform with 52 tools, built in Astro and
+  TypeScript, scoring 100/100 on performance, SEO, and accessibility.")
 - Arabic must read like a competent Arab engineer wrote it, not like a
   translation. Keep tool names in English (Laravel, Vue, Docker, Redis) —
   translating them looks amateur.
 - Mostaql clients skim harder than Upwork clients. Ruthless.
-- الـ P.S. يتكتب كـ **"ملحوظة أخيرة:"** في آخر البروبوزال.
+- The P.S. is written as the literal label **"ملحوظة أخيرة:"** and always
+  comes last.
+- Arabic runs long. After translating a thought, cut it again — Arabic
+  padding (`وبالتالي فإن`, `ومن هذا المنطلق`) is the easiest slop to miss.
 
 ---
 
@@ -326,6 +388,9 @@ Filler:
 
 Structural tells:
 - A bulleted list of every technology he knows
+- Two sentences where one would do
+- An opening clause before the point ("What I'd like to highlight is that...")
+- Recapping at the end what was already said in the middle
 - Headings inside the proposal body
 - Three paragraphs before the client is mentioned
 - Any sentence that would survive being sent to a different client
@@ -348,6 +413,11 @@ Fail any one → fix before output.
 - [ ] Block 3 is the *closest* project, with a number
 - [ ] Upwork: ≤4750 characters total, counted. Links present and correct.
 - [ ] Mostaql: Arabic, **zero links**, reads natively
+- [ ] **Cut pass run** — and it actually removed something
+- [ ] Upwork within 1200–1800 chars, or the overage earns its place
+- [ ] Mostaql within 700–1100 chars
+- [ ] No paragraph over 3 sentences
+- [ ] Zero hedges (I believe / I think / it seems / possibly)
 - [ ] P.S. is real advice, specific to them
 - [ ] Zero banned phrases
 - [ ] Would fail if pasted to a different client
@@ -357,7 +427,7 @@ Fail any one → fix before output.
 ## OUTPUT FORMAT
 
 ```
-**PROPOSAL — [Upwork | Mostaql] | [EN | AR] | [N] chars**
+**PROPOSAL — [Upwork | Mostaql] | [EN | AR] | [N] chars | hook: [N] chars**
 **Send from profile:** [which specialized profile]
 
 ---
